@@ -1,0 +1,23 @@
+h1,
+ol {
+    text-align: center;
+    font-family: "Garamond", serif;
+    font-weight: bolder;
+}
+
+ol {
+    font-size: x-large;
+    list-style: none;
+}
+
+img {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    text-align: center;
+}
