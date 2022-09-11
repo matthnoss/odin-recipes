@@ -8,6 +8,7 @@ ol {
 ol {
     font-size: x-large;
     list-style: none;
+    display: block;
 }
 
 img {
