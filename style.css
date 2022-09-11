@@ -1,3 +1,7 @@
+body {
+    background-color: #f5ebe0;
+}
+
 h1,
 ol {
     text-align: center;
@@ -8,11 +12,10 @@ ol {
 ol {
     font-size: x-large;
     list-style: none;
-    display: block;
 }
 
 img {
-    height: 450px;
+    height: 530px;
     width: auto;
     display: block;
     margin-left: auto;
