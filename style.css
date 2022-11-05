@@ -1,27 +1,70 @@
+* {
+    min-width: 0;
+    min-height: 0;
+}
+
 body {
     background-color: #f5ebe0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1,
 ol {
+    align-items: center;
     text-align: center;
     font-family: "Garamond", serif;
     font-weight: bolder;
+    list-style-type: none;
 }
 
-ol {
-    font-size: x-large;
-    list-style: none;
-}
-
-img {
+#landingphoto {
     height: 530px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 30px;
 }
 
-h4 {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#margherita-img-desc {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#margherita-image {
+    min-width: 50%;
+}
+
+#margherita-paragraph {
+    padding: 50px;
+}
+
+#marg-ingredients-list-picker {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#marg-ingredients-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+#marg-serving-size {
+    display: flex;
+    flex-direction: column;
+}
+
+#marg-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
