@@ -29,19 +29,33 @@ a {
     color: black;
 }
 
-#margherita-img-desc {
+#margherita-img-desc,
+#fries-img-desc,
+#caesar-img-desc {
     display: flex;
     flex-direction: row;
-    font-size: x-large;
+    font-size: 4vmin;
     padding-left: 50px;
     padding-top: 20px;
 }
+
+
 
 #margherita-image {
     min-width: 50%;
 }
 
-#margherita-paragraph {
+#fries-image {
+    max-width: 50%;
+}
+
+#caesar-image {
+    max-width: 50%;
+}
+
+#margherita-paragraph,
+#fries-paragraph,
+#caesar-paragraph {
     padding: 50px;
 }
 
@@ -67,4 +81,15 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+@media only screen and (max-width: 700px) {
+    #margherita-img-desc,
+    #fries-img-desc,
+    #caesar-img-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
