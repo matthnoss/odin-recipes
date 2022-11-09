@@ -7,18 +7,22 @@
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="index-body">
+<header>
     <h1>Welcome to Odin Recipes.</h1>
-
-    <img id="landingphoto" src="./images/landingphoto.jpg" alt="Three people in kitchen holding meals.">
-
     <h4>Please choose from one of the recipes below.</h4>
-    
-    <ol>
-    <li><a href="./margherita.html">Margherita</a></li>
-    <li><a href="./fries.html">French Fries</a></li>
-    <li><a href="./caesar.html">Caesar Salad</a></li>
-    </ol>
+    <div id="recipe-images">
+        <a href="./margherita.html">
+        <img class="homepage-images" src="./images/homepage-images/marg.jpg">
+        </a>
+        <a href="./caesar.html">
+        <img class="homepage-images" src="./images/homepage-images/salad.jpg">
+        </a>
+        <a href="./fries.html">
+        <img class="homepage-images" src="./images/homepage-images/fries.jpg">
+        </a>
+    </div>
+</header>
 </body>
 <script src="./main.js"></script>
 </html>

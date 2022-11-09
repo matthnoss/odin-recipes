@@ -8,20 +8,27 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-width: 100;
+    min-height: 100;
+    margin: 0px;
 }
 
-h1,
-ol {
+#index-body {
+    background-image: url(./images/landingphoto.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100vh;
+}
+
+h1, 
+h4 {
     align-items: center;
     text-align: center;
     font-family: "Garamond", serif;
     font-weight: bolder;
     list-style-type: none;
-}
-
-#landingphoto {
-    height: 530px;
-    margin-bottom: 30px;
 }
 
 a {
@@ -39,7 +46,22 @@ a {
     padding-top: 20px;
 }
 
+#recipe-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 170px;
+}
 
+.homepage-images {
+    height: 200px;
+    transition: 0.5s;
+    transition-delay: 70ms;
+}
+
+.homepage-images:hover {
+    height: 250px;
+}
 
 #margherita-image {
     min-width: 50%;
@@ -86,7 +108,8 @@ a {
 @media only screen and (max-width: 700px) {
     #margherita-img-desc,
     #fries-img-desc,
-    #caesar-img-desc {
+    #caesar-img-desc,
+    #recipe-images {
         display: flex;
         flex-direction: column;
         align-items: center;
