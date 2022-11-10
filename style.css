@@ -14,12 +14,23 @@ body {
 }
 
 #index-body {
-    background-image: url(./images/landingphoto.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url(./images/landingphoto.jpg);
     background-size: cover;
 }
 
 header {
     width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 600%;
+}
+
+h4 {
+    font-size: 150%;
 }
 
 h1, 
@@ -29,11 +40,7 @@ h4 {
     font-family: "Garamond", serif;
     font-weight: bolder;
     list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #margherita-img-desc,
@@ -50,13 +57,15 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 170px;
+    margin-top: 100px;
+    filter: brightness(92%);
 }
 
 .homepage-images {
     height: 200px;
     transition: 0.5s;
     transition-delay: 70ms;
+    border-radius: 200px;
 }
 
 .homepage-images:hover {
@@ -105,7 +114,7 @@ a {
     align-items: flex-start;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 820px) {
     #margherita-img-desc,
     #fries-img-desc,
     #caesar-img-desc,
